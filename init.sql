@@ -1,0 +1,3 @@
+USE mysql;
+ALTER USER 'root'@'%' IDENTIFIED BY 'root1234';
+FLUSH PRIVILEGES;
